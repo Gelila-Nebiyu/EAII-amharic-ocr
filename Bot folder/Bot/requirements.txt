@@ -3,9 +3,9 @@ opencv-python==4.8.1.78
 numpy==1.26.0
 
 # Torch stack compatible with Python 3.11
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
-torchaudio==2.2.2+cpu
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
 
 ultralytics==8.0.152
 

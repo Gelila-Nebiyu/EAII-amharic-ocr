@@ -1,0 +1,5 @@
+[build]
+builder = "nixpacks"
+
+[packages]
+apt = ["libgl1", "libglib2.0-0"]

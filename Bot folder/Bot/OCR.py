@@ -194,4 +194,4 @@ def pipeline(img_path, user_id=None, bw=True):
 
 # ------------------------ TEST ------------------------
 if __name__ == "__main__":
-    print(pipeline('sample.jpg', user_id="test", bw=True))
+    print(pipeline('', user_id="test", bw=True))

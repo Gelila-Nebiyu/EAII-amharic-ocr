@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: eaii-amharic-ocr
+    env: python
+    pythonVersion: 3.11 # or 3.11
+    repo: https://github.com/Gelila-Nebiyu/EAII-amharic-ocr
+    rootDir: Bot
+    buildCommand: pip install -r requirements.txt
+    startCommand: python Telegram_bot.py # Adjust based on your app

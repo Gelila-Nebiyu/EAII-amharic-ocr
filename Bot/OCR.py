@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from ultralytics import YOLO
-
+from ultralytics.nn.tasks import DetectionModel
 # ------------------------ CONFIG ------------------------
 CRNN_LOC = 'best_crnn (1).pth'
 YOLO_MODEL_PATH = 'best.pt'

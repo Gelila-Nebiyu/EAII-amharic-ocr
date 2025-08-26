@@ -4,7 +4,7 @@ numpy>=1.26.0
 Pillow>=10.0.0
 
 # Torch stack (CPU only) - pulled from PyTorch index
-torch==2.2.2
+torch==2.5.0
 torchvision==0.17.2
 torchaudio==2.2.2
 --extra-index-url https://download.pytorch.org/whl/cpu

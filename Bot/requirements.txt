@@ -1,6 +1,6 @@
 python-telegram-bot==20.3
-opencv-python==4.9.0.80
-numpy>=1.26.0
+opencv-python==4.8.1.78
+numpy==1.26.4
 Pillow>=10.0.0
 
 # Torch stack (CPU only) - pulled from PyTorch index

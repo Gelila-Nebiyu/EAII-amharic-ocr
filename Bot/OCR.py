@@ -15,6 +15,7 @@ BW_IMG_LOC = 'BW_read_img.jpg'
 BLANK = 302
 
 # ------------------------ LOAD MODELS ------------------------
+torch.serialization.add_safe_globals([DetectionModel])
 yolo_model = YOLO(YOLO_MODEL_PATH)
 
 class CRNN(nn.Module):
